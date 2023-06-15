@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftFormsMobile", "SoftFormsMobile\SoftFormsMobile.csproj", "{ADCC27F9-6A2F-4685-9991-C706643A62D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADCC27F9-6A2F-4685-9991-C706643A62D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCC27F9-6A2F-4685-9991-C706643A62D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCC27F9-6A2F-4685-9991-C706643A62D8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ADCC27F9-6A2F-4685-9991-C706643A62D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCC27F9-6A2F-4685-9991-C706643A62D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCC27F9-6A2F-4685-9991-C706643A62D8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38D46252-B11E-4AB1-8A97-1F10721A06CF}
+	EndGlobalSection
+EndGlobal
