@@ -1,0 +1,64 @@
+﻿{
+  "id": "2f5972f7-6e91-4ed4-9f84-98351d7b9ca1",
+  "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "title": "Тест мобилка",
+  "description": "",
+  "pages": [
+    {
+      "id": "55759351-a4ad-5e8f-c62f-6f8dc625c1d8",
+      "questions": [
+        {
+          "id": "dd8df2eb-588c-4934-b5bb-c93dd2de4f7d",
+          "title": "Как тебя зовут?",
+          "questionType": "Text",
+          "isRequired": true,
+          "options": [],
+          "showConditions": null,
+          "hideConditions": null
+        },
+        {
+          "id": "f3d6febd-fc20-9800-7e6c-663aa0ab8369",
+          "title": "Какой твой любимый цвет?",
+          "questionType": "Radio",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "ee8ec46f-1060-ccc2-9ef8-648ad659ef7a",
+              "value": "Желтый"
+            },
+            {
+              "id": "2a90e1a6-10c2-8572-4871-a839f798e409",
+              "value": "Зеленый"
+            },
+            {
+              "id": "09921141-9295-33b4-ef45-6442b2e0d5e9",
+              "value": "Синий"
+            }
+          ],
+          "showConditions": null,
+          "hideConditions": null
+        },
+        {
+          "id": "d2488e12-7a39-1662-f547-2bb026d5e7ba",
+          "title": "Сколько тебе лет?",
+          "questionType": "Number",
+          "isRequired": false,
+          "options": [],
+          "showConditions": null,
+          "hideConditions": null
+        },
+        {
+          "id": "b3371702-5026-4acd-fa5c-ab8b5c4c3c34",
+          "title": "Когда будет удобно встретиться?",
+          "questionType": "Date",
+          "isRequired": false,
+          "options": [],
+          "showConditions": null,
+          "hideConditions": null
+        }
+      ]
+    }
+  ],
+  "created": "2023-06-09T12:29:47.02Z",
+  "updated": "2023-06-15T13:34:14.187Z"
+}

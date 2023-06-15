@@ -51,7 +51,7 @@ namespace SoftFormsMobile
             }
             catch (Exception ex)
             {
-                Log.Error("myApp", ex.Message);
+                Log.Error("softFormsApp", ex.Message);
             }           
         }
 
@@ -60,12 +60,19 @@ namespace SoftFormsMobile
             GetSurveys();
         }
 
-        private async void GetSurveys()
+        private void GetSurveys()
         {     
             try
             {
-                Survey response = await softFormsApi.GetSurvey();
-                pages = response.Pages;
+                //Survey response = await softFormsApi.GetSurvey();
+
+                string mockResponse;
+                StreamReader streamReader = new StreamReader(Assets.Open("mockData.json"));
+                mockResponse = streamReader.ReadToEnd();
+
+                Survey mockSurvey = JsonConvert.DeserializeObject<Survey>(mockResponse);
+
+                pages = mockSurvey.Pages;
 
                 foreach (var page in pages)
                 {
